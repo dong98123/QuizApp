@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './App.scss'
+import QuestionCart from '../questionCard/QuestionCard'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      
-    </>
+    <div className='App'>
+        <QuestionCart />
+    </div>
   )
 }
 

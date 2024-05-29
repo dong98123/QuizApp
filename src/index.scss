@@ -46,8 +46,11 @@ abbr,acronym { border:0;
  body{
   width: 100vw;
   height: 100vh;
-  background: url("./assets/cat-sunglasses-gangster-digital-art-animal-hd-wallpaper-uhdpaper.com-241@0@j.jpg");
+  background: url("./assets/default_theme-night.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  box-sizing: border-box;
+  overflow: hidden;
+  
  }
